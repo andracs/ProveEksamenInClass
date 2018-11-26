@@ -1,8 +1,24 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: beige;
 }
 
 a {
   color: #00B7FF;
 }
+
+.RED, .red {
+  background-color: red;
+}
+
+.PINK {
+  background-color: pink;
+}
+.WHITE {
+  background-color: white;
+}
+
+#overskrift {
+  border: solid green 2px;
+} 
