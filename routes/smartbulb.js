@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:32768/";
+var stats =  require('smartBulbStats');
 
 
 /* Viser pærerne som JSON */
@@ -29,8 +30,9 @@ router.get('/', function (req, res, next) {
       if (err) throw err;
       //console.log(result);
       var obj = {};
-      obj.title = 'Jubii, smartbulb virker';
+      obj.title = 'IKEA Trådfri lampeliste';
       obj.smartbulb = result;
+      obj.status = stats.smartBulbStats(983);
       res.render('smartbulb', obj);
       db.close();
     });

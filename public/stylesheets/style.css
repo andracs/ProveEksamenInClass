@@ -22,3 +22,7 @@ a {
 #overskrift {
   border: solid green 2px;
 } 
+
+#klokke {
+  text-align:right;
+}
