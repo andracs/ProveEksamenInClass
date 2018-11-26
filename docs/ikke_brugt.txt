@@ -1,0 +1,34 @@
+obj.smartbulb = [
+      /* 1 */
+      {
+        "_id": "5bfbae9bbd75e829f1179c83",
+        "color": "RED",
+        "lightIntensity": 50,
+        "on": true,
+        "powerUsageActual": 10.2,
+        "powerUsageNominal": 12,
+        "hardwareType": 1238,
+        "softwareVersion": "0.0.1"
+      },
+      {
+        "_id": "5bfbaefabd75e829f1179c95",
+        "color": "WHITE",
+        "lightIntensity": 50,
+        "on": true,
+        "powerUsageActual": 10.2,
+        "powerUsageNominal": 12,
+        "hardwareType": 1238,
+        "softwareVersion": "0.0.1"
+      },
+
+      {
+        "_id": "5bfbaf43bd75e829f1179c9f",
+        "color": "WHITE",
+        "lightIntensity": 50,
+        "on": false,
+        "powerUsageActual": 10.2,
+        "powerUsageNominal": 12,
+        "hardwareType": 1238,
+        "softwareVersion": "0.0.1"
+      }
+    ];

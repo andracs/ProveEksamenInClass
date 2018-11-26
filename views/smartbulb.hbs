@@ -1,0 +1,28 @@
+<h1>{{title}}</h1>
+
+<h2>Følgend pærer er i databasen:</h2>
+
+<table>
+    <tr>
+        <th>UID</th>
+        <th>Tændt</th>
+        <th>Lysstyrke</th>
+        <th>Farve</th>
+        <th>Strømforbrug nu</th>
+        <th>Nominel strømforbrug</th>
+        <th>HW Type</th>
+        <th>SW Version</th>
+    </tr>
+    {{#each smartbulb}}
+    <tr>
+        <td>{{_id}}</td>
+        <td>{{on}}</td>
+        <td>{{lightIntensity}}</td>
+        <td>{{color}}</td>
+        <td>{{powerUsageActual}}</td>
+        <td>{{powerUsageNominal}}</td>
+        <td>{{hardwareType}}</td>
+        <td>{{softwareVersion}}</td>
+    </tr>
+    {{/each}}
+</table>
